@@ -1,0 +1,198 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\bmc\\dotnet-poc\\EmployeeManagement\\EmployeeManagement\\EmployeeManagement.csproj": {}
+  },
+  "projects": {
+    "C:\\bmc\\dotnet-poc\\EmployeeManagement\\Business\\Business.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\bmc\\dotnet-poc\\EmployeeManagement\\Business\\Business.csproj",
+        "projectName": "Business",
+        "projectPath": "C:\\bmc\\dotnet-poc\\EmployeeManagement\\Business\\Business.csproj",
+        "packagesPath": "C:\\Users\\beerendra.c\\.nuget\\packages\\",
+        "outputPath": "C:\\bmc\\dotnet-poc\\EmployeeManagement\\Business\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\beerendra.c\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {
+              "C:\\bmc\\dotnet-poc\\EmployeeManagement\\DataAccess\\DataAccess.csproj": {
+                "projectPath": "C:\\bmc\\dotnet-poc\\EmployeeManagement\\DataAccess\\DataAccess.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "C:\\bmc\\dotnet-poc\\EmployeeManagement\\DataAccess\\DataAccess.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\bmc\\dotnet-poc\\EmployeeManagement\\DataAccess\\DataAccess.csproj",
+        "projectName": "DataAccess",
+        "projectPath": "C:\\bmc\\dotnet-poc\\EmployeeManagement\\DataAccess\\DataAccess.csproj",
+        "packagesPath": "C:\\Users\\beerendra.c\\.nuget\\packages\\",
+        "outputPath": "C:\\bmc\\dotnet-poc\\EmployeeManagement\\DataAccess\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\beerendra.c\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[2.2.4, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "C:\\bmc\\dotnet-poc\\EmployeeManagement\\EmployeeManagement\\EmployeeManagement.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\bmc\\dotnet-poc\\EmployeeManagement\\EmployeeManagement\\EmployeeManagement.csproj",
+        "projectName": "EmployeeManagement",
+        "projectPath": "C:\\bmc\\dotnet-poc\\EmployeeManagement\\EmployeeManagement\\EmployeeManagement.csproj",
+        "packagesPath": "C:\\Users\\beerendra.c\\.nuget\\packages\\",
+        "outputPath": "C:\\bmc\\dotnet-poc\\EmployeeManagement\\EmployeeManagement\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\beerendra.c\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "C:\\bmc\\dotnet-poc\\EmployeeManagement\\Business\\Business.csproj": {
+                "projectPath": "C:\\bmc\\dotnet-poc\\EmployeeManagement\\Business\\Business.csproj"
+              },
+              "C:\\bmc\\dotnet-poc\\EmployeeManagement\\DataAccess\\DataAccess.csproj": {
+                "projectPath": "C:\\bmc\\dotnet-poc\\EmployeeManagement\\DataAccess\\DataAccess.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.AspNetCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "Microsoft.AspNetCore.Razor.Design": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[2.2.3, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[4.0.1, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}
